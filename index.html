@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birleşik İttifak</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    header {
+      background: linear-gradient(90deg, #020617, #1e293b);
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #cbd5f5;
+    }
+    nav {
+      background: #020617;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+    }
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #38bdf8;
+    }
+    section {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    section h2 {
+      font-size: 2rem;
+      border-bottom: 2px solid #38bdf8;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #020617;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 25px 15px;
+      color: #94a3b8;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: #38bdf8;
+      color: #020617;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #0ea5e9;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BİRLEŞİK İTTİFAK</h1>
+    <p>Disiplin • Dayanışma • Güç</p>
+  </header>
+
+  <nav>
+    <a href="#hakkimizda">Hakkımızda</a>
+    <a href="#amac">Amacımız</a>
+    <a href="#katilim">Katılım</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
+
+  <section id="hakkimizda">
+    <h2>Hakkımızda</h2>
+    <p>
+      Birleşik İttifak, ortak hedefler doğrultusunda hareket eden,
+      disiplinli ve stratejik düşünceye sahip bireylerden oluşan
+      güçlü bir birliktir.
+    </p>
+  </section>
+
+  <section id="amac">
+    <h2>Amacımız</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Birlik</h3>
+        <p>Üyeler arasında tam dayanışma ve güven ortamı oluşturmak.</p>
+      </div>
+      <div class="card">
+        <h3>Strateji</h3>
+        <p>Planlı hareket ederek uzun vadeli başarı sağlamak.</p>
+      </div>
+      <div class="card">
+        <h3>Güç</h3>
+        <p>Topluluk olarak saygı duyulan bir konuma ulaşmak.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="katilim">
+    <h2>Katılım</h2>
+    <p>
+      Aktif, saygılı ve takım ruhuna sahip herkes başvurabilir.
+      İttifak kurallarına uymayı kabul eden üyeler aramızda yer alabilir.
+    </p>
+    <a href="#iletisim" class="btn">Başvur</a>
+  </section>
+
+  <section id="iletisim">
+    <h2>İletişim</h2>
+    <p>
+      Bizimle iletişime geçmek için Discord sunucumuza katılabilir
+      veya oyun içi mesaj gönderebilirsin.
+    </p>
+    <p><strong>Discord:</strong> discord.gg/ittifakadi</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Birleşik İttifak | Tüm Hakları Saklıdır</p>
+  </footer>
+
+</body>
+</html>
